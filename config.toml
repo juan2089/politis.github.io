@@ -1,0 +1,70 @@
+baseURL = "https://www.politislab.co.uk/"
+languageCode = "en-us"
+title = "Argyris Politis Research | King's College London"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon: for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "People"
+        url     = "people"
+        weight  = 2
+    # [[menu.nav]]
+    #     name    = "News"
+    #     url     = "service"
+    #     weight  = 3
+    [[menu.nav]]
+        name    = "Publications"
+        url     = "publications"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Vacancies"
+        url     = "vacancies"
+        weight  = 6
+    [[menu.nav]]
+        name    = "Location"
+        url     = "location"
+        weight  = 5
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "16 October 2019"
+    # Meta data
+    description = "Research group of Argyris Politis"
+    author = "Argyris Politis"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/banner/bilayer.png"
+        heading = ""
+        description = ""
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Welcome to the research group of Argyris Politis"
+        content = "The aim of the Politis lab is to develop new methods to study the structure and dynamics of membrane protein assemblies. We use structural mass spectrometry in combination with advanced modelling to elucidate the mechanistic interplay between membrane proteins and their surrounding lipid environment. This holds the potential to characterise a wide range of un-resolved protein complexes, enabling new frontiers into human health."
+        image   = "images/buttons/lacY.png"
+
+    # Portfolio Section On Homepage
+    # Use for featured publications
+    [params.portfolio]
+        enable  = true
+        title   = "Featured Publications"
+        subtitle= ""
+
+    [params.footer]
+        [[params.footer.socialIcon]]
+            icon = "ion-social-twitter"
+            url = "https://twitter.com/politis_lab?lang=en"
+
+    # Publication list
+    [params.publications]
+        enable  = true
+        title   = "Publications"
+        content = "The aim of the Politis lab is to develop novel methods and tools to study the structural dynamics of macromolecular assemblies, important for their cellular function. Our group primarily focuses on membrane-resident proteins and in particular membrane transporters. We combine HDX-MS with native MS and advanced modelling to elucidate the mechanistic interplay between membrane transporters and their surrounding lipid environment."
